@@ -1,0 +1,10 @@
+SELECT *
+FROM ad_events ae
+JOIN ads a
+ON a.ad_id = ae.ad_id
+
+JOIN campaigns c
+ON c.campaign_id = a.campaign_id
+
+JOIN users u
+ON u.user_id = ae.user_id
