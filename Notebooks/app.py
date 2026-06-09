@@ -102,7 +102,7 @@ st.write("### Share This App")
 st.write("Scan the QR code below to open this app on your phone:")
 
 # Assume local Streamlit server URL
-app_url = "https://share.streamlit.io/user/zhuo0016"
+app_url = "http://localhost:8501"
 
 qr = qrcode.QRCode(box_size=6, border=2)
 qr.add_data(app_url)
