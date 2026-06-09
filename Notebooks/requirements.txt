@@ -1,6 +1,6 @@
 streamlit
 qrcode
 pillow
-scikit-learn
+sklearn
 pandas
 numpy
